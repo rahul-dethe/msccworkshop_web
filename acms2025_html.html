@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACMS 2025 - Accelerating Scientific Discovery in Chemistry and Material Science</title>
+    <link rel="stylesheet" href="acms2025_css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ACMS 2025</h1>
+            <div class="subtitle">Accelerating Scientific Discovery in Chemistry and Material Science with HPC and AI</div>
+            <div class="conference-info">
+                HiPC 2025 • December 17-20, 2025 • Hyderabad, India
+            </div>
+        </div>
+
+        <div class="tab-container">
+            <div class="tab-nav">
+                <button class="tab-button active" onclick="openTab(event, 'overview')">Overview</button>
+                <button class="tab-button" onclick="openTab(event, 'speakers')">Speakers</button>
+                <button class="tab-button" onclick="openTab(event, 'schedule')">Schedule</button>
+                <button class="tab-button" onclick="openTab(event, 'software')">Software</button>
+                <button class="tab-button" onclick="openTab(event, 'organizers')">Organizers</button>
+                <button class="tab-button" onclick="openTab(event, 'call')">Call for Posters</button>
+                <button class="tab-button" onclick="openTab(event, 'dates')">Important Dates</button>
+                <button class="tab-button" onclick="openTab(event, 'submission')">Submission</button>
+                <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+            </div>
+
+            <div id="overview" class="tab-content active">
+                <h2 class="section-title">Workshop Overview</h2>
+                <div class="description">
+                    <p>The National Supercomputing Mission (NSM) is a Government of India initiative to empower research and innovation through a world-class supercomputing ecosystem. NSM is built on four key pillars: infrastructure (deployment of supercomputers), application development, human resources and skill development, and research & development for next-generation technologies.</p>
+                    
+                    <p>Under application development, the Material Science and Computational Chemistry (MSCC) software project focuses on developing advanced software tools for Materials modeling and Chemistry simulations on HPC platforms.</p>
+                    
+                    <p>The Workshop (ACMS-2025) brings together researchers, scientists, and developers from the fields of Chemistry, Materials Science, and Computational Science who are involved with the use of HPC and AI for scientific discovery. The Computational Material Science and Chemistry domain relies on algorithms ranging from atomistic DFT calculations to mesoscale simulations (like phase field modeling) to classical molecular dynamics driven by Computational Science on an HPC platform for scientific outcomes.</p>
+                    
+                    <p>The workshop provides a platform to explore emerging challenges, present recent innovations, and discuss methodologies and tools, both open-source and indigenously developed. The workshop will feature keynote talks followed by invited talks by eminent researchers and developers (domain scientists) of software, such as AMDKIIT, ANN-CI, MTA, μ2mech, LITESOPH, DFT-FE, MicroSim, and ρ-CP.</p>
+                </div>
+            </div>
+
+            <div id="speakers" class="tab-content">
+                <h2 class="section-title">Proposed Speakers</h2>
+                <div class="speakers-grid" id="speakers-container">
+                    <!-- Speakers will be loaded dynamically -->
+                </div>
+            </div>
+
+            <div id="schedule" class="tab-content">
+                <h2 class="section-title">Tentative Workshop Schedule</h2>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Session</th>
+                            <th>Topic</th>
+                            <th>Speaker</th>
+                        </tr>
+                    </thead>
+                    <tbody id="schedule-container">
+                        <!-- Schedule will be loaded dynamically -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="software" class="tab-content">
+                <h2 class="section-title">MSCC Software Showcase</h2>
+                <div id="software-container">
+                    <!-- Software will be loaded dynamically -->
+                </div>
+            </div>
+
+            <div id="organizers" class="tab-content">
+                <h2 class="section-title">Organizers</h2>
+                <div id="organizers-container">
+                    <!-- Organizers will be loaded dynamically -->
+                </div>
+            </div>
+
+            <div id="call" class="tab-content">
+                <h2 class="section-title">Call for Posters / Topics of Interest</h2>
+                <div class="description">
+                    <p>The poster session aims to provide a forum for researchers, students, and industry practitioners to present early-stage research, case studies, tools, or ongoing work related to the theme of the workshop, including but not limited to:</p>
+                </div>
+
+                <div class="topics-grid" id="topics-container">
+                    <!-- Topics will be loaded dynamically -->
+                </div>
+
+                <div class="description">
+                    <p>We encourage submissions covering the broad area of Chemistry and Materials Science Applications on HPC platforms that present novel ideas, work in progress (including preliminary results and recent developments). The scope of the ACMS workshop is on computational methods in Chemistry and Materials Science, which are leveraged by HPC, to study a range of materials systems, their properties, and the phenomena underlying their behavior.</p>
+                    
+                    <p>We expect the posters to emphasize the underlying computational methodology, its algorithmic complexity, inherent parallelism, and scaling challenges, and showcase the computational efforts required for materials discovery/phenomena. Following the theme of HiPC, we seek entries with the spirit of AI/ML-driven Chemistry and Materials science discovery, covering the entire landscape of Computational Chemistry and Materials Science, enabling the ACMS workshop to emerge as a forum for researchers in this domain.</p>
+                </div>
+            </div>
+
+            <div id="dates" class="tab-content">
+                <h2 class="section-title">Important Dates</h2>
+                <div class="important-dates">
+                    <h3>Key Deadlines</h3>
+                    <div id="dates-container">
+                        <!-- Dates will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="submission" class="tab-content">
+                <h2 class="section-title">Poster Submissions: General Guidelines</h2>
+                <div class="description">
+                    <p>Participants are invited to submit a 2-page extended abstract (including figures, tables, and references) of their posters. Poster submissions should not exceed two (2) single-spaced double-column pages using 10-point size font on 8.5×11-inch pages (IEEE conference style), including figures, tables, and references.</p>
+                </div>
+
+                <div style="text-align: center; margin: 30px 0;">
+                    <a href="https://www.ieee.org/conferences/publishing/templates.html" class="link-button" target="_blank">
+                        IEEE Templates
+                    </a>
+                    <a href="https://easychair.org/conferences?conf=acms2025" class="link-button" target="_blank">
+                        Submit Poster
+                    </a>
+                </div>
+
+                <div class="description">
+                    <p>The templates are available at the IEEE conference publishing templates page. Please use the EasyChair link provided above to submit your poster abstracts.</p>
+                </div>
+            </div>
+
+            <div id="contact" class="tab-content">
+                <h2 class="section-title">Contact Information</h2>
+                <div class="contact-info">
+                    <h3 style="margin-bottom: 20px;">Get in Touch</h3>
+                    <p style="margin-bottom: 20px;">For any questions or doubts and quick responses, feel free to email us at:</p>
+                    <a href="mailto:mscc-support@cdac.in" class="contact-email">mscc-support@cdac.in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="acms2025_js.js"></script>
+</body>
+</html>

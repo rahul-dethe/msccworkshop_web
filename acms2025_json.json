@@ -1,0 +1,242 @@
+{
+  "workshop": {
+    "title": "ACMS 2025",
+    "fullTitle": "Accelerating Scientific Discovery in Chemistry and Material Science with HPC and AI",
+    "conference": "HiPC 2025",
+    "dates": "December 17-20, 2025",
+    "location": "Hyderabad, India"
+  },
+  "speakers": [
+    {
+      "name": "Prof. Phani Motamarri",
+      "affiliation": "IISc, Bangalore"
+    },
+    {
+      "name": "Prof. Abhik N. Choudhury",
+      "affiliation": "IISc, Bangalore"
+    },
+    {
+      "name": "Prof. K. Ganapathy Ayappa",
+      "affiliation": "IISc, Bangalore"
+    },
+    {
+      "name": "Prof. Debashree Ghosh",
+      "affiliation": "IACS, Kolkata"
+    },
+    {
+      "name": "Prof. Abhijit Chatterjee",
+      "affiliation": "IIT Bombay"
+    },
+    {
+      "name": "Prof. Shyamprasad Karagadde",
+      "affiliation": "IIT Bombay"
+    },
+    {
+      "name": "Prof. Nisanth Nair",
+      "affiliation": "IIT Kanpur"
+    },
+    {
+      "name": "Prof. Rajdip Mukherjee",
+      "affiliation": "IIT Kanpur"
+    },
+    {
+      "name": "Dr. Nityananda Sahu",
+      "affiliation": "IIT Jammu"
+    }
+  ],
+  "schedule": [
+    {
+      "sno": "1",
+      "session": "Opening remarks and Invited talks",
+      "topics": [
+        {
+          "topic": "Welcome address by organizers",
+          "speaker": "-"
+        },
+        {
+          "topic": "Large Scale Simulation",
+          "speaker": "Prof. Phani Motamarri, IISc, Bangalore"
+        },
+        {
+          "topic": "Soft Matter Simulations",
+          "speaker": "Prof. K. Ganapathy Ayappa, IISc, Bangalore"
+        },
+        {
+          "topic": "Materials Engineering",
+          "speaker": "Prof. Shyamprasad Karagadde, IIT Bombay"
+        }
+      ]
+    },
+    {
+      "sno": "2",
+      "session": "Technical Session: MSCC Software Showcase",
+      "topics": [
+        {
+          "topic": "Various software presentations",
+          "speaker": "Multiple speakers"
+        }
+      ]
+    },
+    {
+      "sno": "3",
+      "session": "Conclusion",
+      "topics": [
+        {
+          "topic": "-",
+          "speaker": "-"
+        }
+      ]
+    },
+    {
+      "sno": "4",
+      "session": "Poster Session by Participants",
+      "topics": [
+        {
+          "topic": "In the foyer",
+          "speaker": "Participants"
+        }
+      ]
+    }
+  ],
+  "software": [
+    {
+      "name": "AMDKIIT",
+      "description": "Linear scaling hybrid-DFT code for ab initio molecular dynamics",
+      "speaker": "Prof. Nisanth Nair, IIT Kanpur"
+    },
+    {
+      "name": "ANN-CI",
+      "description": "Computational chemistry code augmented by machine learning for studying complex biological systems",
+      "speaker": "Prof. Debashree Ghosh, IACS, Kolkata"
+    },
+    {
+      "name": "LITESOPH",
+      "description": "Layer Integrated Toolkit and Engine for Simulations of Photo-induced phenomena, a toolkit for simulations of photo-induced phenomena",
+      "speaker": "Prof. Varadharajan Srinivasan, IISER Bhopal"
+    },
+    {
+      "name": "MTASpec",
+      "description": "Quantum chemistry code based on the fragmentation-based molecular tailoring approach",
+      "speaker": "Dr. Nityananda Sahu, IIT Jammu"
+    },
+    {
+      "name": "μ2mech",
+      "description": "A multiscale modeling approach combining atomistic and phase-field simulations for microstructure modeling during solid-state phase transformations",
+      "speaker": "Prof. Rajdip Mukherjee, IIT Kanpur"
+    },
+    {
+      "name": "DFT-FE",
+      "description": "Density Functional Theory With Finite-Elements",
+      "speaker": "Prof. Phani Motamarri, IISc, Bangalore"
+    },
+    {
+      "name": "MicroSim",
+      "description": "Phase-field solvers for microstructure simulations during solidification and phase transformation of metals and alloys",
+      "speaker": "Prof. Abhik N. Choudhury, IISc, Bangalore"
+    },
+    {
+      "name": "ρ-CP",
+      "description": "Open-source dislocation density-based crystal plasticity framework for simulating temperature- and strain rate-dependent deformation",
+      "speaker": "Prof. Anirban Patra, IIT Bombay"
+    }
+  ],
+  "organizers": {
+    "workshopChair": [
+      {
+        "name": "Nisha Agrawal",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      }
+    ],
+    "coChair": [
+      {
+        "name": "Dr. V Venkatesh Shenoi",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      }
+    ],
+    "publicityChair": [
+      {
+        "name": "Ashish Nayak",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      },
+      {
+        "name": "Dr. Paramita Ghosh",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      },
+      {
+        "name": "Rahul Dethe",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      },
+      {
+        "name": "Subhojeet Das",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      }
+    ],
+    "publicationChair": [
+      {
+        "name": "Rahul Dethe",
+        "affiliation": "Centre for Development of Advanced Computing (C-DAC), India"
+      }
+    ],
+    "technicalProgramCommittee": [
+      {
+        "name": "Dr. V Venkatesh Shenoi",
+        "affiliation": "C-DAC"
+      },
+      {
+        "name": "Nisha Agrawal",
+        "affiliation": "C-DAC"
+      },
+      {
+        "name": "Prof. Nisanth Nair",
+        "affiliation": "IIT Kanpur"
+      },
+      {
+        "name": "Prof. Rajdip Mukherjee",
+        "affiliation": "IIT Kanpur"
+      },
+      {
+        "name": "Prof. Varadharajan Srinivasan",
+        "affiliation": "IISER Bhopal"
+      },
+      {
+        "name": "Prof. Debashree Ghosh",
+        "affiliation": "IACS, Kolkata"
+      }
+    ]
+  },
+  "topics": [
+    "Molecular Quantum Chemistry",
+    "Density Functional Theory for Materials",
+    "Materials modelling at the Mesoscale, Microstructure, and Kinetics",
+    "Soft Matter simulations",
+    "Strongly Correlated Electron Systems",
+    "Artificial Intelligence/Machine Learning for Chemistry and Materials Science discovery"
+  ],
+  "importantDates": [
+    {
+      "label": "Submission site open (latest by)",
+      "date": "September 1, 2025"
+    },
+    {
+      "label": "Poster submissions (latest by)",
+      "date": "October 10, 2025"
+    },
+    {
+      "label": "Author notifications (latest by)",
+      "date": "November 6, 2025"
+    },
+    {
+      "label": "Camera-ready version (firm deadline)",
+      "date": "November 14, 2025"
+    },
+    {
+      "label": "Workshop Date",
+      "date": "December 17, 2025"
+    }
+  ],
+  "links": {
+    "ieeeTemplates": "https://www.ieee.org/conferences/publishing/templates.html",
+    "posterSubmission": "https://easychair.org/conferences?conf=acms2025",
+    "contactEmail": "mscc-support@cdac.in"
+  }
+}
